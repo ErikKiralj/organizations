@@ -1,0 +1,7 @@
+{
+    "rules": {
+        "prefer-alphabetical-dependencies": "error",
+        "prefer-alphabetical-devDependencies": "error",
+        "prefer-alphabetical-scripts": "error"
+    }
+}
