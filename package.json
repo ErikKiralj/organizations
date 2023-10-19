@@ -11,8 +11,7 @@
     "lint:package-json": "npmPkgJsonLint --configFile ./.packagerc.json .",
     "lint:prettier": "prettier --check \"./**/*{json,md,css}\"",
     "lint:stylelint": "stylelint --cache './**/*.css'",
-    "start": "next start",
-    "test": "jest"
+    "start": "next start"
   },
   "dependencies": {
     "next": "13.5.5",
@@ -20,6 +19,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/node": "20.8.7",
     "@types/react": "^18.2.29",
     "@types/react-dom": "^18.2.13",
     "@types/react-test-renderer": "^18.0.4",

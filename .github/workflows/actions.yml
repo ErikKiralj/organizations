@@ -1,0 +1,21 @@
+name: Github Actions
+
+on:
+  pull_request:
+
+jobs:
+  lint-build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Run linting
+        run: yarn lint
+
+      - name: Build
+        run: yarn build
