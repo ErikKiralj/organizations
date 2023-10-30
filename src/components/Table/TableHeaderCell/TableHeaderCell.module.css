@@ -1,0 +1,15 @@
+.root {
+    align-items: center;
+    border-right: 1px solid var(--theme-colors-shade6);
+    color: var(--theme-colors-shade2);
+    column-gap: 16px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: flex-start;
+    padding-left: 16px;
+}
+
+.root:last-child {
+    border: none;
+}

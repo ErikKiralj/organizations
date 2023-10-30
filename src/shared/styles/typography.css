@@ -1,0 +1,10 @@
+:root {
+    --theme-fontSize-small: 12px;
+    --theme-fontSize-medium: 13px;
+    --theme-fontSize-large: 14px;
+    --theme-fontWeight-regular: 500;
+    --theme-fontWeight-bold: 600;
+    --theme-lineHeight-small: 15px;
+    --theme-lineHeight-medium: 18px;
+    --theme-lineHeight-large: 22px;
+}

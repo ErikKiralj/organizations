@@ -1,0 +1,18 @@
+:root {
+    --theme-colors-accentsBlue: #0068ed;
+    --theme-colors-accentsGreen: #27ae60;
+    --theme-colors-accentsRed: #eb5757;
+    --theme-colors-accentsYellow: #f2c94c;
+    --theme-colors-shade: #f8f8fa;
+    --theme-colors-shade1: #202124;
+    --theme-colors-shade2: #3e3f42;
+    --theme-colors-shade3: #646569;
+    --theme-colors-shade4: #9ea0a5;
+    --theme-colors-shade5: #ced0da;
+    --theme-colors-shade6: #eaedf3;
+    --theme-colors-shade7: #bdbdbd;
+    --theme-colors-shade8: #ffffff;
+    --theme-colors-shade9: #f6f9fd;
+    --theme-colors-shade10: #4f4f4f;
+    --theme-colors-shade11: #f1f2f5;
+}

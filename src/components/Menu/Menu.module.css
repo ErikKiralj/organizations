@@ -1,0 +1,54 @@
+.root {
+    position: relative;
+}
+
+.root:hover {
+    cursor: pointer;
+}
+
+.dots {
+    align-items: center;
+    column-gap: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    background-color: var(--theme-colors-shade5);
+    border-radius: 50%;
+    height: 4px;
+    width: 4px;
+}
+
+.menu {
+    background-color: var(--theme-colors-shade8);
+    border-radius: 4px;
+    display: flex;
+    filter: drop-shadow(0 4px 16px rgba(0, 0, 0, 0.15)) drop-shadow(0 0 2px rgba(0, 0, 0, 0.12));
+    flex-direction: column;
+    padding: 4px 0;
+    position: absolute;
+    top: 15px;
+    width: 176px;
+    z-index: 99;
+}
+
+.left {
+    left: -10px;
+}
+
+.right {
+    right: -10px;
+}
+
+.menuTitle {
+    border-bottom: 1px solid var(--theme-colors-shade11);
+    height: 24px;
+    padding: 4px 16px;
+    width: 100%;
+}
+
+.title {
+    color: var(--theme-colors-accentsBlue);
+    font-size: 10px;
+}

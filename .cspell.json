@@ -5,5 +5,5 @@
         "cacheLocation": "../../.cspellcache"
     },
     "ignorePaths": ["README.md", "*.json"],
-    "ignoreWords": ["packagejson"]
+    "ignoreWords": ["packagejson", "proxima", "proximaNova", "checkmark"]
 }

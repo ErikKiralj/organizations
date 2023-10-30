@@ -1,0 +1,20 @@
+.root {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid var(--theme-colors-shade5);
+    border-radius: 4px;
+    display: flex;
+    height: 16px;
+    justify-content: center;
+    width: 16px;
+}
+
+.root:hover {
+    cursor: pointer;
+}
+
+.dash {
+    background-color: var(--theme-colors-accentsBlue);
+    height: 2px;
+    width: 10px;
+}

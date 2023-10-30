@@ -1,0 +1,30 @@
+.root {
+    border: 1px solid var(--theme-colors-shade6);
+    display: flex;
+    flex-direction: column;
+}
+
+.root:last-child {
+    border: none;
+}
+
+.row {
+    align-items: center;
+    background-color: var(--theme-colors-shade8);
+    border-bottom: 1px solid var(--theme-colors-shade6);
+    display: grid;
+    grid-column-gap: 16px;
+    grid-template-columns: 16px 1fr 8px 24px;
+    height: 56px;
+    padding: 16px;
+    width: 297px;
+}
+
+.row:hover {
+    background-color: var(--theme-colors-shade9);
+}
+
+.name {
+    color: var(--theme-colors-shade3);
+    font-size: var(--theme-fontSize-large);
+}
