@@ -1,0 +1,20 @@
+.root {
+    border-bottom: 1px solid var(--theme-colors-shade11);
+    height: 40px;
+    padding: 9px 16px;
+    width: 100%;
+}
+
+.root:last-child {
+    border: none;
+}
+
+.root:hover {
+    background: linear-gradient(0deg, var(--theme-colors-shade9) 0%, var(--theme-colors-shade9) 100%),
+        var(--theme-colors-shade8);
+}
+
+.label {
+    color: var(--theme-colors-shade2);
+    font-weight: 400;
+}

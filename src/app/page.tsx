@@ -1,9 +1,7 @@
-import React from 'react'
+'use client'
+
+import { OrganizationsListView, withOrganizationsPageData } from '../modules'
 
 export default function Home() {
-    return (
-        <div>
-            <p>Initial home page</p>
-        </div>
-    )
+    return withOrganizationsPageData(OrganizationsListView)
 }

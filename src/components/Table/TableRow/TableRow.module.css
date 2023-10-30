@@ -1,0 +1,18 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    min-width: 700px;
+    width: 100%;
+}
+
+.row {
+    align-items: center;
+    background-color: #fafafa;
+    border-bottom: 1px solid var(--theme-colors-shade6);
+    column-gap: 16px;
+    display: grid;
+    height: 100%;
+    min-height: 32px;
+    padding-left: 16px;
+    width: 100%;
+}

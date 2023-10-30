@@ -1,0 +1,26 @@
+.root {
+    align-items: center;
+    column-gap: 5px;
+    display: flex;
+}
+
+.small {
+    font-size: var(--theme-fontSize-small);
+    font-style: normal;
+    font-weight: var(--theme-fontWeight-bold);
+    line-height: var(--theme-lineHeight-medium);
+}
+
+.medium {
+    font-size: var(--theme-fontSize-medium);
+    font-style: normal;
+    font-weight: var(--theme-fontWeight-regular);
+    line-height: var(--theme-lineHeight-small);
+}
+
+.large {
+    font-size: var(--theme-fontSize-large);
+    font-style: normal;
+    font-weight: var(--theme-fontWeight-regular);
+    line-height: var(--theme-lineHeight-large);
+}

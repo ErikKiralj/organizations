@@ -1,0 +1,27 @@
+.root {
+    position: relative;
+}
+
+.tooltip {
+    background-color: var(--theme-colors-shade2);
+    border-radius: 4px;
+    bottom: -40px;
+    color: var(--theme-colors-shade8);
+    left: 50%;
+    padding: 6px 8px;
+    position: absolute;
+    text-align: center;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 100;
+}
+
+.arrow {
+    background-color: var(--theme-colors-shade2);
+    height: 6px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: rotate(45deg) translateX(-50%);
+    width: 6px;
+}
